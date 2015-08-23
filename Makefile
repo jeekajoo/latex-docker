@@ -1,4 +1,4 @@
-NS = blang
+NS = jeekajoo
 REPO = latex 
 NAME = latex 
 VOLUMES = -v $PWD:/data

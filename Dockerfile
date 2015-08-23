@@ -1,5 +1,5 @@
-FROM ubuntu:trusty
-MAINTAINER Benedikt Lang <mail@blang.io>
+FROM debian:jessie
+MAINTAINER Jeekajoo <github@fralef.me>
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update -q

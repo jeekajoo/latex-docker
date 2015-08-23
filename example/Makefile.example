@@ -1,7 +1,7 @@
-## A typical Makefile for compiling latex sources using a blang/latex docker container
+## A typical Makefile for compiling latex sources using a jeekajo/latex docker container
 
 ifndef PDFVIEWER
-	PDFVIEWER=mupdf
+	PDFVIEWER=xdg-open
 endif
 
 CONTAINER=latexdockercmd.sh /bin/sh -c
